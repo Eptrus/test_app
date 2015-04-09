@@ -12,7 +12,8 @@
 
     // device APIs are available
     //
-    function onDeviceReady() {
+    function onDeviceReady()
+	{
         var element = document.getElementById('deviceProperties');
         element.innerHTML = 'Device Name: '     + device.name     + '<br />' +
                             'Device Cordova: '  + device.cordova  + '<br />' +
@@ -24,6 +25,6 @@
     </script>
   </head>
   <body>
-    <p id="deviceProperties">Loading device properties...</p>
+	<p id="deviceProperties">Loading device properties...</p>
   </body>
 </html>
